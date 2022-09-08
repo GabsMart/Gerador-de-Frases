@@ -5,7 +5,6 @@ let frases = [
     'As coisas só mudam quando nós as mudamos. Mas você tem que fazer isso.',
     'O bem e o mal são uma questão de perspectiva.',
     'Há coisas lá fora que nossas pequenas mentes nunca compreenderão.',
-    'Mas de vez em quando é bom questionar quem questiona as coisas.',
     'Todos enfrentamos o mesmo fim.',
     'No final, todos nós teremos exatamente o que merecemos.',
     'O medo é o pior inimigo do progresso.',
@@ -19,7 +18,7 @@ let frases = [
     'Mas no final, cada morte é apenas um novo começo.',
     'A vida é um labirinto. Alguns vagam até a morte em busca de uma saída.',
     'Mas você tem que fazer isso com habilidade, em segredo. Então parece mágica.',
-    'Mas de vez em quando é bom questionar quem questiona as coisas.',
+    'Mas de vez em quando é bom questionar quem nos faz questionar as coisas.',
     'Se agora eu mudar meu passado, mudarei quem sou agora.',
     'Não somos livres no que fazemos, porque não somos livres no que queremos.',
     'Não podemos superar o que está dentro de nós.',
@@ -96,7 +95,7 @@ let frases = [
 ];
 
 button.addEventListener('click', function () {
-    let random = Math.floor(Math.random()*90);
+    let random = Math.floor(Math.random()*89);
     frase.innerHTML = frases[random];
     frase.style.color = '#fff';
 });
